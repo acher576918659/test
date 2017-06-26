@@ -6,8 +6,8 @@ public class randomDemo {
 		int i;
 		for(i=1;i<20;i++)
 		{
-			int num= (int)((Math.random()*17)-6);
-		System.out.print(num+" ");
+			double num= ((Math.random()*17)-6);
+		System.out.println(num+" ");
 		}
 			
 	}
